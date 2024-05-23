@@ -1,0 +1,290 @@
+@font-face {
+  font-family: horizon;
+  src: url(fonts/horizon.otf);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background: linear-gradient(
+    16deg,
+    rgb(51, 17, 63) 1%,
+    rgba(86, 20, 108, 1) 100%
+  );
+}
+
+.header {
+  background-color: #b648db;
+  gap: 189px;
+  display: flex;
+  border-radius: 15px;
+}
+
+.noah {
+  padding: 1px;
+  font-size: 2.9vw;
+  width: 38vw;
+  display: flex;
+  font-family: horizon;
+  margin-left: 0.7vw;
+  animation: fadeout 0.15s ease-in;
+  border-radius: 20px;
+  transition: transform 0.15s ease-out;
+}
+
+.colored-noah {
+  /* text-shadow: 0 0 10px #b700ff; */
+  color: #ea00ff;
+}
+
+nav {
+  margin: -1.8px;
+  padding-right: 0.5vw;
+  font-size: 2.8vw;
+  display: flex;
+  gap: 30px;
+  font-family: horizon;
+  float: right;
+}
+
+.about:hover,
+.blog:hover,
+.contact:hover,
+.noah:hover {
+  animation: fadein 0.15s ease-in;
+  transform: scale(1.06);
+}
+
+.noah:hover {
+  transform: scale(1.03);
+}
+
+.about,
+.blog,
+.contact {
+  padding: 5px;
+  animation: fadeout 0.15s ease-in;
+  border-radius: 20px;
+  transition: transform 0.15s ease-out;
+}
+
+.text-div,
+.recent-projects-div {
+  position: fixed;
+  margin: auto;
+  margin-top: 13vh;
+  margin-left: 4vw;
+  height: 70vh;
+  width: 65vw;
+  border-radius: 15px;
+  background-color: #6e0491;
+}
+
+.wave {
+  user-select: none;
+  position: absolute;
+  margin-left: 3vw;
+  width: 7vw;
+}
+
+.hi,
+.description {
+  text-indent: 25px;
+  font-family: Horizon;
+  font-size: 3em;
+  margin-top: 1%;
+  color: white;
+}
+
+.description {
+  font-family: system-ui;
+  text-indent: 0;
+  margin-left: 1.4vw;
+  margin-top: 3.5%;
+  font-size: 2.35em;
+}
+
+.recent-projects-div {
+  background-color: #6e0491;
+  margin-left: 73vw;
+  width: 24vw;
+  border-radius: 15px;
+}
+
+.projects-title {
+  border-radius: 15px;
+  height: 7.5vh;
+  background-color: #8b09fe;
+  margin-top: 0vh;
+  text-indent: 15px;
+  font-family: Horizon;
+  font-size: 3.4em;
+  color: white;
+}
+
+.project-title {
+  position: fixed;
+  border-radius: 30px;
+  margin: auto;
+  margin-left: 0.5vw;
+  margin-top: -0.5vh;
+  width: 23vw;
+  height: 8vw;
+  background-color: rebeccapurple;
+}
+
+.project-desc {
+  position: fixed;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 9vh;
+  width: 23vw;
+  height: 4.5vw;
+  background-color: rgb(38, 28, 49);
+}
+
+.website-title {
+  position: absolute;
+  color: white;
+  font-family: horizon;
+  margin-left: 0.9vw;
+  margin-top: 0.6vh;
+  font-size: 1.75em;
+  word-break: break-all;
+}
+
+.github-icon,
+.domain-icon {
+  position: absolute;
+  height: 1.8vw;
+  margin-left: 11.5vw;
+  margin-top: 4.3vh;
+  transition: transform 0.2s ease-out;
+}
+
+.github-icon:hover,
+.domain-icon:hover {
+  transform: scale(1.15);
+}
+
+.domain-icon {
+  margin-left: 14vw;
+}
+
+.project-text {
+  font-family: system-ui;
+  margin: auto;
+  margin-top: 1vh;
+  margin-left: 0.9vw;
+  color: white;
+  font-size: 1.5em;
+}
+
+.everything {
+  margin-left: -0.6vw;
+}
+
+.phantom {
+  color: aqua;
+}
+
+.phantom:hover {
+  color: rgb(0, 119, 255);
+}
+
+.knowledge-div {
+  display: flex;
+}
+
+.frameworks,
+.learn {
+  border-radius: 15px;
+  margin-top: -3vh;
+  margin-left: 1.5vw;
+  width: 25vw;
+  height: 21vh;
+  background-color:#8b09fe;
+}
+
+.basic,
+.basic2 {
+  margin-top: 1vh;
+  margin-left: 2.3vw;
+  font-size: 1.6em;
+  color: white;
+  font-family: horizon;
+}
+
+.basic2 {
+  margin-top: 0.5vh;
+}
+
+.html {
+  margin-top: -3vh;
+  margin-left: 5vw;
+  width: 5vw;
+}
+
+.iknow {
+  margin-top: -1vh;
+}
+
+.ilearn {
+  margin-left: 10vw;
+  margin-top: -1vh;
+}
+
+.css {
+  margin-left: 5vw;
+  width: 3.5vw;
+}
+
+.learn {
+  margin-left: vw;
+}
+
+.js {
+  margin-top: -5vh;
+  margin-left: 3.3vw;
+  width: 3.5vw;
+}
+
+.ts {
+  margin-left: 2vw;
+  width: 3.5vw;
+}
+
+.react {
+  margin-top: -5vh;
+  margin-left: 2.5vw;
+  width: 3.5vw;
+}
+
+.ilearn {
+  margin-left: -1.5vw;
+  margin-top: 1vh;
+}
+
+.chakra {
+  margin-left: 2.5vw;
+  width: 3.5vw;
+}
+
+.html,
+.css,
+.js,
+.react,
+.chakra {
+  transition: transform 0.1s ease-in;
+}
+
+.html:hover,
+.css:hover,
+.js:hover,
+.react:hover,
+.chakra:hover {
+  transform: scale(1.08);
+}
